@@ -38,7 +38,7 @@ import org.w3c.dom.Element;*/
 
 
 public class DomPars {
-	 public  DomPars() {
+	 public  DomPars() {//
 		 
 	 }
 

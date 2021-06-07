@@ -194,7 +194,7 @@ public class Importer extends JFrame implements ItemListener {
 	public static ArrayList<String> getPDFLinks() {
 			
 	        pdfList = new ArrayList<String>(); 
-	  		String url= "https://sante.sec.gouv.sn/taxonomy/term/14?page=2";
+	  		String url= "https://sante.sec.gouv.sn/Actualites/coronavirus-communiqu%C3%A9-de-presse-n%C2%B0463-du-lundi-07juin-2021-du-minist%C3%A8re-de-la-sant%C3%A9-et";
 	          String regex = "sites/default/com";
 	          CloseableHttpClient client = HttpClientBuilder.create().build();
 	  		HttpGet request = new HttpGet(url);
@@ -203,7 +203,7 @@ public class Importer extends JFrame implements ItemListener {
 				response = client.execute(request);
 			} catch (ClientProtocolException e1) {
 				// TODO Auto-generated catch block
-				e1.printStackTrace();
+				e1.printStackTrace();//
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
